@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/baby-app
+hooks:
+  AfterInstall:
+    - location: scripts/restart.sh
+      runas: ec2-user
+
