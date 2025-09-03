@@ -7,7 +7,7 @@ app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.send(`
-    <h1>Haiii</h1>
+    <h1>Haiii, Am the little brother of Sri!</h1>
     <img src="Sai.jpg" alt="Baby Photo" width="300"/>
   `);
 });
